@@ -3,10 +3,12 @@
     <action name="android.intent.action.VIEW" />
     <scheme name="market" />
     <ssp prefix="//details?id=com.taobao.taobao" />
+    <ssp prefix="//details?id=com.tmall.wireless" />
   </intent-filter>
   <intent-filter>
     <action name="android.intent.action.VIEW" />
     <scheme name="http" />
     <ssp sglob="//market.android.com/.*com.taobao.taobao.*" />
+    <ssp sglob="//market.android.com/.*com.tmall.wireless.*" />
   </intent-filter>
 </prescription>
