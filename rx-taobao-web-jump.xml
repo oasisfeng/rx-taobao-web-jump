@@ -3,4 +3,9 @@
     <action name="android.intent.action.VIEW" />
     <scheme name="market" />
   </intent-filter>
+  <intent-filter>
+    <action name="android.intent.action.VIEW" />
+    <scheme name="http" />
+    <ssp prefix="//market.android.com/" />
+  </intent-filter>
 </prescription>
