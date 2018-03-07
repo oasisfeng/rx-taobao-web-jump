@@ -2,6 +2,7 @@
   <intent-filter>
     <action name="android.intent.action.VIEW" />
     <scheme name="market" />
+    <ssp prefix="//details?id=com.taobao.taobao" />
   </intent-filter>
   <intent-filter>
     <action name="android.intent.action.VIEW" />
