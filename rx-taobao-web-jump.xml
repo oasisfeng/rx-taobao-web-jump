@@ -1,6 +1,7 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" type="activity" sender="other" package="com.android.vending">
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" type="activity" sender="other-app" package="com.android.vending">
   <intent-filter>
     <action name="android.intent.action.VIEW" />
+    <category name="android.intent.category.BROWSABLE" />
     <scheme name="market" />
   </intent-filter>
 </prescription>
