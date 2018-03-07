@@ -1,4 +1,4 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" type="activity" sender="other" package="com.android.vending">
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" type="activity" sender="other">
   <intent-filter>
     <action name="android.intent.action.VIEW" />
     <scheme name="market" />
@@ -7,6 +7,6 @@
   <intent-filter>
     <action name="android.intent.action.VIEW" />
     <scheme name="http" />
-    <ssp prefix="//market.android.com/" />
+    <ssp prefix="//market.android.com/store/apps/details?id=com.taobao.taobao" />
   </intent-filter>
 </prescription>
