@@ -3,6 +3,6 @@
     <action name="android.intent.action.VIEW" />
     <category name="android.intent.category.BROWSABLE" />
     <scheme name="market" />
-    <ssp prefix="//details?id=com.taobao.taobao&referrer=com.android.chrome" />
+    <ssp prefix="//details?id=com.taobao.taobao&amp;referrer=com.android.chrome" />
   </intent-filter>
 </prescription>
