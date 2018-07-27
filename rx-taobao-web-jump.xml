@@ -4,13 +4,11 @@
     <scheme name="market" />
     <ssp prefix="//details?id=com.taobao.taobao" />
     <ssp prefix="//details?id=com.tmall.wireless" />
-	<ssp prefix="//details?id=com.tmall.wireles" />
   </intent-filter>
   <intent-filter>
     <action name="android.intent.action.VIEW" />
     <scheme name="http" />
     <ssp sglob="//market.android.com/.*com.taobao.taobao.*" />
-    <ssp sglob="//market.android.com/.*com.tmall.wireless.*" />
-	<ssp sglob="//market.android.com/.*com.tmall.wireles.*" />
+    <ssp sglob="//market.android.com/.*com.tmall.wireles.*" /> <!-- "com.tmall.wireles" (missing one "s") appears in javascript -->
   </intent-filter>
 </prescription>
