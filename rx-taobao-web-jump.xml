@@ -9,6 +9,6 @@
     <action name="android.intent.action.VIEW" />
     <scheme name="http" />
     <ssp sglob="//market.android.com/.*com.taobao.taobao.*" />
-    <ssp sglob="//market.android.com/.*com.tmall.wireless.*" />
+    <ssp sglob="//market.android.com/.*com.tmall.wire.*" />
   </intent-filter>
 </prescription>
